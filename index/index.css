@@ -2,6 +2,11 @@
 body{
     background-color:#DBEAFE;
     font-family: 'Nunito Sans', sans-serif;
+    /* border: 2px solid black; */
+    width:87%;
+    /* justify-content:center; */
+    margin:0em 0em 0em 8em;
+    
  
 }
 /*   Common CSS     */
@@ -54,7 +59,8 @@ body{
 .header1{
     padding:0.4rem 0.4rem 0.4rem 0.4rem;
     /* border: 2px solid greenyellow; */
-    color:#1E3A8A;
+    color:whitesmoke;
+    /* 1E3A8A */
 }
 .navigation{
     
