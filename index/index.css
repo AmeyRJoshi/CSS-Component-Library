@@ -1,29 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 body{
-    background-color:#9CA3AF ;
+    background-color:#DBEAFE;
     font-family: 'Nunito Sans', sans-serif;
  
 }
 /*   Common CSS     */
 .iconify { 
-    width: 30px; height: 54px; 
-    padding: 1rem;
+    width: 30px; height: 34px; 
+    padding: 0.5em;
     /* justify-content: space-evenly; */
     /* float: right top; */
 }
-.sociocontainer{
+.social-nav{
+    /* border:1px solid red; */
+    display: flex;
+}
+.sociocontainer1{
     /* float:right top;
     margin-top:0.3rem;
     margin-bottom:0.3rem;
      padding: 0.25rem; */
-     margin-right: 2rem;
+     margin-right: 0.5em;
+     /* border:2px solid black; */
+     
+     
+     
     
     
     
 }
+.sociocontainer2{
+    /* float:right top;
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
+     padding: 0.25rem; */
+     margin-right: 0.5em;
+     /* border:2px solid black; */
+    
+    
+    
+}
+.sociocontainer3{
+    /* float:right top;
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
+     padding: 0.25rem; */
+     margin-right: 0.5em;
+     /* border:2px solid black; */
+    
+    
+    
+}
+.header1{
+    padding:0.4rem 0.4rem 0.4rem 0.4rem;
+    /* border: 2px solid greenyellow; */
+    color:#1E3A8A;
+}
 .navigation{
-    color:whitesmoke;
-    background-color:#374151;
+    
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -31,8 +68,10 @@ body{
     border-bottom-right-radius: 1rem;
     display: flex;
     justify-content: space-between;
+    
    
 }
+
 .code-preview {
      /* border:2px solid orange; */
      padding: 0.5em;
@@ -60,8 +99,8 @@ body{
      align-items: flex-start;
      justify-content:left;
      /* border:2px solid blue; */
-     width:100%;
-     background-color: #1F2937;
+     width:77%;
+     background-color: #DBEAFE;
      
  
  }
@@ -89,40 +128,52 @@ body{
     /* border:2px solid green; */
     margin: 1em;
     /* padding: 1rem; */
-    background-color:#9CA3AF ;
-    color:whitesmoke;
+    background-color:#DBEAFE ;
+    color:black;
     margin-left: 310px; /* Same as the width of the sidebar */
     padding: 0px 10px;
     
 }
 
  aside {
-     color:whitesmoke;
+     color:black;
      float: left ;
+     
      /* text-align: left; */
-     padding: 1.5rem;
-     margin: 1.5rem;
+     padding: 1.0rem;
+     margin: 1.0rem;
      /* border:2px solid purple; */
-     background-color:#9CA3AF ;
+     background-color:#DBEAFE ;
      text-align: center;
     position: fixed;
     
     
  }
- 
+ aside>ul{
+     display:flex;
+     flex-direction: column;
+ }
  aside>ul>li {
      
      float:left top;
      padding: 0.5em;
      list-style-type: none;
-     margin: 1em;
+     margin: 0.5rem;
+     width: 30%;
+     /* border:2px solid blueviolet; */
+     align-items: flex-start;
+     
  }
  
  aside>ul>li>a {
      text-decoration: none;
-     color:white;
-     padding: 1.5em;
- 
+     color:#1F2937;
+     /* padding: 1.3em; */
+     /* border:2px solid black; */
+     
+     
+     /* text-align: center;
+  */
  }
  .content-header{
       display: flex;
@@ -323,7 +374,7 @@ body{
 .icon-button1:active{
     background:#cccccc;
 }
-.icon-button__badge{
+.icon-button__badge1{
     position: absolute;
     top:-10px;
     right:-10px;
@@ -337,7 +388,48 @@ body{
     align-items: center;
     border-radius: 50%;
 }
-
+.icon-button__badge2{
+    position: absolute;
+    top:-13px;
+    right:-13px;
+    width: 30px;
+    height:30px;
+    background:#D1FAE5;
+    color:#6db11f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon-button__badge3{
+    position: absolute;
+    top:-13px;
+    right:-13px;
+    width: 30px;
+    height:30px;
+    background:#1D4ED8;
+    color:#60A5FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon-button__badge4{
+    position: absolute;
+    top:-13px;
+    right:-13px;
+    width: 30px;
+    height:30px;
+    background:#F472B6;
+    color:#FBCFE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border-radius: 50%;
+}
 .icon-button2{
     position: relative;
     display: flex;
@@ -531,6 +623,7 @@ body{
 }
 .design{
    background-color: #1b569e;
+   padding: 0.6rem 0.6rem 0.6rem 0.6rem;
    border-radius: 0.6rem;
    color: white;
 
