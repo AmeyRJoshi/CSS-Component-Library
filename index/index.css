@@ -3,7 +3,7 @@ body{
     background-color:#DBEAFE;
     font-family: 'Nunito Sans', sans-serif;
     /* border: 2px solid black; */
-    width:90%;
+    width:80%;
     /* justify-content:center; */
     margin:0em 0em 0em 8em;
     
@@ -608,7 +608,10 @@ body{
 
   /*  CARD COMPONENT   */
   .outline{
-      border:2.5px solid black;
+      /* border:2.5px solid black; */
+      height: 300px;
+      width: 200px;
+
   }
   .row{
     display: flex;
@@ -625,6 +628,7 @@ body{
     border: 3px solid black;
     margin: 1rem;
     max-width: 200px;
+   
     /* align-self: auto; */
 }
 .design{
