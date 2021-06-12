@@ -6,6 +6,7 @@ body{
     width:80%;
     /* justify-content:center; */
     margin:0em 0em 0em 8em;
+    overflow-x:hidden ;
     
  
 }
