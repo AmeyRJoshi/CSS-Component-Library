@@ -3,7 +3,7 @@ body{
     background-color:#DBEAFE;
     font-family: 'Nunito Sans', sans-serif;
     /* border: 2px solid black; */
-    width:87%;
+    width:90%;
     /* justify-content:center; */
     margin:0em 0em 0em 8em;
     
@@ -738,12 +738,23 @@ body{
    }
    
    .set-image-width-350px{
-       width: 350px;
+    width: 250px;
+    height: 400px;
+   }
+   .set-modal-image-width{
+    width: 600px;
+    height: 400px;
    }
    .set-image-border{
        border-radius:50% ;
        width: 400px;
-       
+              
+   }
+   .set-image-border{
+       border-top-left-radius: 50% 50%;
+       border-top-right-radius: 50% 50%;
+       border-bottom-right-radius: 50% 50%;
+       border-bottom-left-radius: 50% 50%;
    }
 
    /*    INPUT COMPONENT */
