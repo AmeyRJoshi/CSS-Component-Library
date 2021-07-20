@@ -156,8 +156,7 @@ body{
      float: left ;
      
      /* text-align: left; */
-     padding: 1.0rem;
-     margin: 1.0rem;
+    
      /* border:2px solid purple; */
      background-color:#DBEAFE ;
      text-align: center;
@@ -172,9 +171,9 @@ body{
  aside>ul>li {
      
      float:left top;
-     padding: 0.5em;
+     padding: 0.3rem;
      list-style-type: none;
-     margin: 0.5rem;
+     margin: 0.3rem;
      width: 30%;
      /* border:2px solid blueviolet; */
      align-items: flex-start;
